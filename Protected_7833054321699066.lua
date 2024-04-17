@@ -9,6 +9,7 @@ for i, v in pairs(game.Workspace:GetDescendants()) do
 		v:Destroy()
 	end
 end
+wait(0.3)
 for i, v in pairs(game.Workspace:GetDescendants()) do
 	if v:IsA("Part") then
 		if v.Size == Vector3.new(194.25570678710938, 92.91696166992188, 340.46710205078125) then
